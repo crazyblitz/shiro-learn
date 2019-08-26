@@ -21,6 +21,4 @@ mybatis-plus:
 logging:
   config: classpath:spring-logback.xml
   level:
-    com:
-      wx:
-        tourism: debug
+    com.ley.spring.shiro: debug
