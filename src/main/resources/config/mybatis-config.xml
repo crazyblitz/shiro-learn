@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "mybatis-3-config.dtd" >
+<configuration>
+    <settings>
+        <!-- 延迟加载的开关,开启时,所有的关联对象都会延迟加载,默认为false -->
+        <setting name="lazyLoadingEnabled" value="true"/>
+        <!-- 属性启用时,会使带有延迟加载属性的对象立即加载,默认为true -->
+        <setting name="aggressiveLazyLoading" value="false"/>
+        <setting name="logImpl" value="STDOUT_LOGGING"/>
+    </settings>
+</configuration>
